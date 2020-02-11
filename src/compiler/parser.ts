@@ -537,7 +537,6 @@ namespace ts {
 
         performance.mark("afterParse");
         performance.measure("Parse", "beforeParse", "afterParse");
-        performance.measure(`Parse ${fileName}`, "beforeParse", "afterParse");
         return result;
     }
 
